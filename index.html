@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Money Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>💰 Pocket Money Calculator</h1>
+        <p>Save money for something special!</p>
+
+        <label>Weekly Pocket Money (KSh)</label>
+        <input type="number" id="weekly" placeholder="Enter weekly money">
+
+        <label>Current Savings (KSh)</label>
+        <input type="number" id="savings" placeholder="Enter your savings">
+
+        <label>Price of the Item (KSh)</label>
+        <input type="number" id="price" placeholder="Enter item price">
+
+        <div class="result">
+            <h2 id="weeks">Weeks needed: --</h2>
+            <p id="date">Estimated date: --</p>
+            <p id="progressText">Savings progress: 0%</p>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <p id="message">Enter your details above.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

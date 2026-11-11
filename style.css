@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 25px;
+    background: #eff6ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.result h2 {
+    color: #2563eb;
+}
+
+.progress-container {
+    background: #ddd;
+    height: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.progress-bar {
+    background: #22c55e;
+    width: 0%;
+    height: 100%;
+    transition: width 0.4s;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
